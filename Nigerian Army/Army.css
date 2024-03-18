@@ -1,0 +1,279 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.container {
+  background-image: url("images/Parade.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+img {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px;
+}
+.departments {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+}
+.motto {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "LEMON MILK";
+  color: white;
+  margin-top: 182px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: larger;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+  background-color: rgba(161, 153, 153, 0.934);
+  color: white;
+}
+
+.departments h6,
+a {
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.list span {
+  padding-right: 15px;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+  background: white;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.press {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+   border: none;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.wrapper img {
+  width: 48em;
+  height: 25em;
+}
+
+.wrap {
+  width: 90%;
+}
+.wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ops img {
+  width: 48em;
+  height: 25em;
+  border-radius: 5em;
+}
+
+.operation img {
+  width: 48em;
+  height: 60em;
+  border-radius: 5em;
+}
+
+.oops img {
+  width: 48em;
+  height: 25em;
+  border-radius: 5em;
+}
+
+.frame img {
+  float: right;
+  width: 48em;
+  height: 25em;
+  border-radius: 3em;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 80%;
+}
+
+h2 {
+  margin-right: 12%;
+  margin-bottom: 3%;
+}
+
+.class {
+  align-items: center;
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.salary {
+  background-color: hsl(240, 79%, 65%);
+}
+
+h4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  color: hsla(256, 100%, 50%, 1);
+}
+
+.cols {
+  color: hsla(54, 90%, 30%, 1);
+}
+
+.colss {
+  color: hsla(101, 64%, 31%, 1);
+}
+
+
+.pic img {
+  float: right;
+  width: 43em;
+  height: 24em;
+}
+
+.must {
+  width:50%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size: xx-large;
+  
+  
+  
+}
+.num{
+ width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+
+}
+
+.most{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: xx-large;
+  
+  
+}
+
+
+
+.nums{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right:60%;
+  margin-bottom: 10%;
+}
+
+.join{
+  width: 50%;
+  font-size: larger;
+  font-weight: 700%;
+  margin-top: 3%;
+
+
+}
+
+.event{
+  width: 90px;
+  height: 90px;
+  margin-top: 80px;
+
+  
+}
+
+.upcoming{
+  margin-right: 27px;
+  font-size: larger;
+}
+
+.orange{
+  margin-top: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.chief{
+  font-size: larger;
+}
+
+.essay{
+  color: hsla(0, 70%, 42%, 1);
+  font-family:cursive;
+}
+
+.topic img{
+  width: 18px;
+  height: 18px;
+}
